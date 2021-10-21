@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <LangVersion>9.0</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\NeighborsNetwork.Shared\NeighborsNetwork.Shared.csproj" />
+        <ProjectReference Include="..\NeighborsNetwork.Users.Db\NeighborsNetwork.Users.Db.csproj" />
+        <ProjectReference Include="..\NeighborsNetwork.Users.Service.Processing\NeighborsNetwork.Users.Service.Processing.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.0-rc.2.21480.5" />
+    </ItemGroup>
+
+</Project>

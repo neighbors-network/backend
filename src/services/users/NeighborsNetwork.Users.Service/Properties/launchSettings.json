@@ -1,0 +1,14 @@
+﻿{
+    "profiles": {
+        "NeighborsNetwork.Users.Service": {
+            "commandName": "Project",
+            "dotnetRunMessages": true,
+            "launchBrowser": false,
+            "applicationUrl": "http://localhost:5005",
+            "launchUrl": "swagger/index.html",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+    }
+}

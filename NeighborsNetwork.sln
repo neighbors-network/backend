@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeighborsNetwork.Server", "src\NeighborsNetwork.Server\NeighborsNetwork.Server.csproj", "{4A701A83-C29B-4FBC-991E-FA1659320229}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A21A7198-8E7C-4098-9B09-58EAF8DFBEFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{E92AD6AE-B1D5-41F0-B02D-A4B2F30B1812}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C9ECEAC7-7B41-4BD5-928F-E612055447EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "users", "users", "{7F015319-5D87-478A-A818-5A017A3C325C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "auth", "auth", "{1BF2B4BD-C952-4F02-B334-738C4AC93A59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "storage", "storage", "{5986906E-1782-46C1-8C06-BB451C89071B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "contacts", "contacts", "{66C58200-0F17-4693-B0C2-E7142AB9BDBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "notification", "notification", "{59BAAF36-11FE-496F-9F1B-1AD9484C3315}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeighborsNetwork.Users.Service", "src\services\users\NeighborsNetwork.Users.Service\NeighborsNetwork.Users.Service.csproj", "{B3211F1C-8264-4654-9A10-A964B9EDD4FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeighborsNetwork.Users.Db", "src\services\users\NeighborsNetwork.Users.Db\NeighborsNetwork.Users.Db.csproj", "{A5797EF9-24DF-4F02-BCB7-3C2BCCB97815}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeighborsNetwork.Shared", "src\NeighborsNetwork.Shared\NeighborsNetwork.Shared.csproj", "{445E4374-3E1B-4FCA-AE61-6D1B72A5F858}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeighborsNetwork.Users.Service.Processing", "src\services\users\NeighborsNetwork.Users.Service.Processing\NeighborsNetwork.Users.Service.Processing.csproj", "{A87D6416-40F4-4596-A8EF-DDA2B1E40E77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A701A83-C29B-4FBC-991E-FA1659320229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A701A83-C29B-4FBC-991E-FA1659320229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A701A83-C29B-4FBC-991E-FA1659320229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A701A83-C29B-4FBC-991E-FA1659320229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3211F1C-8264-4654-9A10-A964B9EDD4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3211F1C-8264-4654-9A10-A964B9EDD4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3211F1C-8264-4654-9A10-A964B9EDD4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3211F1C-8264-4654-9A10-A964B9EDD4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5797EF9-24DF-4F02-BCB7-3C2BCCB97815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5797EF9-24DF-4F02-BCB7-3C2BCCB97815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5797EF9-24DF-4F02-BCB7-3C2BCCB97815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5797EF9-24DF-4F02-BCB7-3C2BCCB97815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445E4374-3E1B-4FCA-AE61-6D1B72A5F858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445E4374-3E1B-4FCA-AE61-6D1B72A5F858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445E4374-3E1B-4FCA-AE61-6D1B72A5F858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445E4374-3E1B-4FCA-AE61-6D1B72A5F858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87D6416-40F4-4596-A8EF-DDA2B1E40E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87D6416-40F4-4596-A8EF-DDA2B1E40E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87D6416-40F4-4596-A8EF-DDA2B1E40E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87D6416-40F4-4596-A8EF-DDA2B1E40E77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A701A83-C29B-4FBC-991E-FA1659320229} = {A21A7198-8E7C-4098-9B09-58EAF8DFBEFC}
+		{E92AD6AE-B1D5-41F0-B02D-A4B2F30B1812} = {A21A7198-8E7C-4098-9B09-58EAF8DFBEFC}
+		{7F015319-5D87-478A-A818-5A017A3C325C} = {E92AD6AE-B1D5-41F0-B02D-A4B2F30B1812}
+		{1BF2B4BD-C952-4F02-B334-738C4AC93A59} = {E92AD6AE-B1D5-41F0-B02D-A4B2F30B1812}
+		{5986906E-1782-46C1-8C06-BB451C89071B} = {E92AD6AE-B1D5-41F0-B02D-A4B2F30B1812}
+		{66C58200-0F17-4693-B0C2-E7142AB9BDBD} = {E92AD6AE-B1D5-41F0-B02D-A4B2F30B1812}
+		{59BAAF36-11FE-496F-9F1B-1AD9484C3315} = {E92AD6AE-B1D5-41F0-B02D-A4B2F30B1812}
+		{B3211F1C-8264-4654-9A10-A964B9EDD4FE} = {7F015319-5D87-478A-A818-5A017A3C325C}
+		{A5797EF9-24DF-4F02-BCB7-3C2BCCB97815} = {7F015319-5D87-478A-A818-5A017A3C325C}
+		{445E4374-3E1B-4FCA-AE61-6D1B72A5F858} = {A21A7198-8E7C-4098-9B09-58EAF8DFBEFC}
+		{A87D6416-40F4-4596-A8EF-DDA2B1E40E77} = {7F015319-5D87-478A-A818-5A017A3C325C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24DA1BCB-15D9-4A69-A973-4E96B1801098}
+	EndGlobalSection
+EndGlobal

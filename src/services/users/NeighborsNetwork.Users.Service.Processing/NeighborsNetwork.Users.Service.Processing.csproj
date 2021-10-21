@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>9.0</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\NeighborsNetwork.Shared\NeighborsNetwork.Shared.csproj" />
+        <ProjectReference Include="..\NeighborsNetwork.Users.Db\NeighborsNetwork.Users.Db.csproj" />
+    </ItemGroup>
+
+</Project>
